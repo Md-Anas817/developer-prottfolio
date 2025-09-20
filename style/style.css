@@ -218,3 +218,39 @@ main section{
 .resume-btn{
     margin-top: 50px;
 }
+
+
+/* footer style */
+
+footer{
+    padding: 130px 230px;
+   display: flex;
+   gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+footer input[type="text" ], footer input[type="email"]{
+    height: 64px;
+    width: 461px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+}
+footer textarea{
+    width: 461px;
+    height: 180px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: white
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+}
