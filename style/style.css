@@ -162,3 +162,59 @@ main section{
 .skill-description{
     padding: 20px 33px 30px 0;
 }
+
+
+
+
+/* resume styles */
+
+.resume{
+    max-width: 1140px;
+    /* justify-content: space-between; */
+}
+
+.resume-container{
+    display: flex;
+    /* justify-content:space-evenly; */
+    gap: 50px;
+    width: 520px;
+}
+.resume-column-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    width: 400px;
+}
+.experience{
+    width: 400px;
+    height: 175px;
+    
+}
+.resume-column{
+    align-items: center;
+}
+.experience-title{
+    color: #474747;
+    font-weight: bold;
+    font-size: 25px;
+    width: 405px;
+    /* margin: 10px; */
+    /* margin-right: none; */
+    /* margin-bottom: 0; */
+}
+.experience-sub-title{
+    color: #757575;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 309px;
+}
+.experience-description{
+    width: 400px;
+    color: #757575;
+    font-size: 16px;
+}
+.resume-btn{
+    margin-top: 50px;
+}
